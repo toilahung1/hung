@@ -1,0 +1,37 @@
+/* Login page styles */
+.container {
+    max-width: 1500px;
+    width: 700px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px rgba(66, 64, 64, 0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #097aa7;
+}
+
+
+  
+
+
+/* Thiết lập toàn bộ body để căn giữa */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    background: linear-gradient(#80d1f1, #16a1d8);
+}
+
+@media(max-width: 768px)  {
+    .container {
+        max-width: 500px;
+        width: 350px;
+    }
+}
